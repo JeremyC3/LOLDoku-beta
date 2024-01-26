@@ -51,7 +51,6 @@ jobs:
         with:
           path: |
             './dist/'
-            './public/'
   deploy:
     name: Deploy
     needs: build
