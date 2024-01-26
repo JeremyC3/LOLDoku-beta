@@ -50,8 +50,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: |
-            ./dist
-            ./public
+            './dist/'
+            './public/'
   deploy:
     name: Deploy
     needs: build
